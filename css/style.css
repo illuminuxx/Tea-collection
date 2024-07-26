@@ -1,0 +1,47 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+/*.tea-card {
+    height: 640px;
+}*/
+
+
+/*.tea-card__info {
+    margin-top: 176px;
+    margin-left: 104px;
+}*/
+
+.my-slick-prev, .my-slick-next {
+    top: calc(50% - 20px);
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    width: 70px;
+    height: 40px;
+    z-index: 999;
+}
+
+.my-slick-next {
+    right: 0;
+}
+
+
+
+
+
+#accordion h3::before {
+    content: url("../my-images/next-active.png");
+    position: absolute;
+    right: 24px;
+}
+
+#accordion h3.ui-state-active::before {
+    content: url("../my-images/next-def.png");
+    position: absolute;
+    right: 24px;
+}
+
+.hvr-sweep-to-right:before {
+    background-color: #2f863c;
+}
